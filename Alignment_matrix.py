@@ -1,4 +1,5 @@
 import numpy as np
+#Human genes match score=5 and mismatch=-4
 num=0
 e=0
 f=0
@@ -49,7 +50,7 @@ selected = [0, 0, 0, 0, 0,0, 0, 0, 0, 0,0,0]
 no_edge = 0
 
 selected[0] = True
-print("prims traceback")
+print("prims traceback sequence")
 #print("Edge : Weight\n")
 while (no_edge < V - 1):
     minimum = INF
@@ -66,20 +67,3 @@ while (no_edge < V - 1):
     print(str(x) + "-" + str(y) + ":" + str(arr[x][y]))
     selected[y] = True
     no_edge += 1
-c=e
-d=f
-print("Sequence:")
-while(arr[c][d]!=0):
-    if(arr[c][d]-5==arr[c-1][d-1] and a[c-1]==b[d-1]):
-#             printf("%d:%d,%d->\n",arr[c][d],c,d);
-        print(a[c-1]+"        "+b[d-1]+"\n");
-        c=c-1
-        d=d-1
-    elif(arr[c][d]+4==arr[c-1][d]):
-#             // printf("%d:%d,%d->\n",arr[c][d],c,d);
-        print(a[c-1]+"        _ \n")
-        c=c-1
-    elif(arr[c][d]+4==arr[c][d-1]):
-#             // printf("%d:%d,%d->\n",arr[c][d],c,d);
-        print("_        "+b[d-1]+"\n")
-        d=d-1
