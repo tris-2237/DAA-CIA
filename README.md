@@ -12,7 +12,7 @@ Alignment matrix is not possible to find using the traceback mechanism as prims 
 we are taking two set of different sequences.
 
 ### <B>CIA2 Developing individual code base using the various evolutionary algorithms for weight optimization
-These algorithms used are:
+The algorithms used are:
 <ul>
 <li>Genetic Algorithm
 <li>Cultural Algorithm
