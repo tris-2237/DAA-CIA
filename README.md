@@ -1,5 +1,5 @@
 ## DAA CIA
-### <B>DAA CIA1 Sequence Alignment Matrix</B>
+### <B>CIA1 Sequence Alignment Matrix</B>
 Two sequences a and b are chosen and inititialized
 
 Match value and Mismatch value is chosen according to human genes which +5 and -4 respectively
@@ -11,7 +11,7 @@ Affine penalty model is chosen as the scoring model for the sequence allignment 
 Alignment matrix is not possible to find using the traceback mechanism as prims kruskal and djikstra as we need the same sequence on both vertical and horizontal but 
 we are taking two set of different sequences.
 
-### <B>DAA CIA2 DevelopING individual code base using the various evolutionary algorithms for weight optimization
+### <B>CIA2 Developing individual code base using the various evolutionary algorithms for weight optimization
 These algorithms used are:
 <ul>
 <li>Genetic Algorithm
